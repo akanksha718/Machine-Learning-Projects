@@ -3,7 +3,7 @@ import numpy as np
 import streamlit as st
 
 # loading the saved model
-loaded_model = pickle.load(open(r'C:\Users\ayush\Desktop\ml project\Sonar-Rock-vs-Mine-prediction\diabetes_model.sav', 'rb'))
+loaded_model = pickle.load(open('diabetes_model.sav', 'rb'))
 
 # function for prediction
 def diabetes_prediction(input_data):
